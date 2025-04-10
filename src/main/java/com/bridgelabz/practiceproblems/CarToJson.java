@@ -25,7 +25,7 @@ public class CarToJson {
             }
         }
         // Car object
-        Car car = new Car("Toyota", "Camry", 2020);
+        Car car = new Car("Tata", "curv", 2024);
         // Convert Car object to JSON
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("make", car.getMake());
