@@ -15,7 +15,7 @@ public class StudentJSON {
         subjects.put("Computer Science");
         student.put("subjects", subjects);
         // Printing JSON object
-        System.out.println(student.toString(4));
+        System.out.println(student.toString(1));
     }
 }
 
